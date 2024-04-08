@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import CarouselImage1 from "../AssetsN/sparmenues_start_mobil-opti.webp";
 import CarouselImage2 from "../AssetsN/start_aktion-1_mobil_pfanny_2024-opti.webp";
 import CarouselImage3 from "../AssetsN/sparmenues_start_mobil-opti.webp";
-import { FiArrowRight } from "react-icons/fi";
+// import { FiArrowRight } from "react-icons/fi";
 
 const Home = () => {
   const backgrounds = [CarouselImage1, CarouselImage2, CarouselImage3];
