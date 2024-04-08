@@ -6,10 +6,11 @@ import Testimonial from "./Components/Testimonial";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import TopBar from "./Components/TopBar";
-
+import SixCards from "./Components/SixCards";
 import Menuu from "./Components/Menuu";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import GifDiv from "./Components/gifdiv";
 
 function App() {
   return (
@@ -18,11 +19,12 @@ function App() {
         <TopBar />
         <Home />
         <Menuu />
-
-        <About />
+        <GifDiv/>
+        <SixCards/>
+        {/* <About />
         <Work />
         <Testimonial />
-        <Contact />
+        <Contact /> */}
         <Footer />
       </Router>
     </div>

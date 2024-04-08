@@ -1,7 +1,7 @@
 import React from "react";
-import PickMeals from "../Assets/pick-meals-image.png";
-import ChooseMeals from "../Assets/choose-image.png";
-import DeliveryMeals from "../Assets/delivery-image.png";
+import PickMeals from "../AssetsN/sparmenue_top_hg_party_text.png";
+import ChooseMeals from "../AssetsN/sparmenue_top_hg_single_text.png";
+import DeliveryMeals from "../AssetsN/sparmenue_top_hg_veggie_text.png";
 
 function Work() {
   const workInfoData = [
@@ -34,8 +34,8 @@ function Work() {
             <div className="info-boxes-img-container">
               <img src={data.image} alt="" />
             </div>
-            <h2>{data.title}</h2>
-            <p>{data.text}</p>
+            <h2 className="menuh2">{data.title}</h2>
+            <p className="menup">{data.text}</p>
 
             <button className="pricebtn"> price btn$ </button>
           </div>
